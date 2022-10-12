@@ -4,12 +4,12 @@ bool TK_FactoryCreate(void* obj, enum TK_DataTypes type)
 {
 	switch (type)
 	{
-		case TK_STRING:
-			return TK_String_Create(obj);
-			break;
-		default:
-			return false;
-			break;
+	case TK_STRING:
+		return TK_String_Create(obj);
+		break;
+	default:
+		return false;
+		break;
 	}
 }
 
