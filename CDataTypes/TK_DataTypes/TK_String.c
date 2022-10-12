@@ -53,6 +53,7 @@ bool TK_String_Create(void* obj)
 
 	if (str != NULL)
 	{
+		//store own instance
 		str->inst = obj;
 
 		//initialize memory
